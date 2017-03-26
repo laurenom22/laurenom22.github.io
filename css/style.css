@@ -40,12 +40,14 @@ h3 {
 img {
 	display: block;
 	margin: 0 auto;
-	border: 3px dotted rgb(178,115,146);
 	border-radius: 50% 10px 50% 10px;
 	transition: all 1000ms;
+	filter: grayscale(100%);
+	border: 3px dotted rgb(178,115,146);
 }
 img:hover{
 		border-radius:50%;
+		filter:none;
 	}
 	
 p,
